@@ -1,13 +1,8 @@
 .acoes {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-}
-
-.containar-radio {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  align-content: center;
 }
 
 .botao {
@@ -22,10 +17,13 @@
 
 .criar-pensamentos form {
   background: #C4EDFF;
+
   border: none;
   border-radius: 20px;
+
   display: flex;
   flex-direction: column;
+
   padding: 2rem;
 }
 
@@ -35,7 +33,15 @@
   margin: 0 0 1rem;
 }
 
-.criar-pensamentos form .input,
+.criar-pensamentos form .input {
+  border: none;
+  height: 40px;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  margin: 0.5rem 0 2rem;
+}
+
+
 .criar-pensamentos form .textarea {
   border: none;
   padding: 1rem 2rem;
@@ -43,11 +49,17 @@
   margin: 0.5rem 0 2rem;
 }
 
-.container-radio,
+.container-radio {
+  display: flex;
+  justify-content: space-around;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
 .modelos {
   display: flex;
   gap: 2.5rem;
-  flex-wrap: wrap;
+  border: 1px solid red;
 }
 
 .modelo {
@@ -57,9 +69,12 @@
   margin: 1rem 0 2rem;
 }
 
-.modelo .conteudo,
-.modelo .autoria {
+.modelo .conteudo {
   margin: 1rem auto;
+  word-wrap: break-word;
+}
+
+.modelo .autoria {
   word-wrap: break-word;
 }
 
@@ -67,11 +82,6 @@
   margin: 0;
 }
 
-.modelo1,
-.modelo2,
-.modelo3 {
-  box-shadow: 8px 8px 0px;
-}
 .modelo1 {
   box-shadow: 8px 8px 0px #154580;
 }
@@ -89,6 +99,7 @@ input[type='radio'] {
 }
 
 .radio-modelo label {
+  width: 300px;
   display: flex;
   align-items: center;
   column-gap: 20px;
@@ -123,24 +134,4 @@ input[type='radio']:checked+.custom-radio {
 
 input[type='radio']:checked+.custom-radio span {
   background: #154580;
-}
-
-.container-pensamentos {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-top: 30px;
-}
-
-.radio-modelo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.modelo {
-  text-align: center;
 }

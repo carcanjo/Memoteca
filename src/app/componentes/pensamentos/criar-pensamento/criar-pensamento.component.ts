@@ -22,4 +22,8 @@ export class CriarPensamentoComponent implements OnInit {
   criarPensamento() {
     alert('Fui clicado');
   }
+
+  cancelar() {
+    alert('pensamento cancelado')
+  }
 }
