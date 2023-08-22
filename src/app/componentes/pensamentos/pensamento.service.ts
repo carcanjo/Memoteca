@@ -14,6 +14,8 @@ export class PensamentoService {
 
   Listar(): Observable<Pensamento[]> {
     return this.http.get<Pensamento[]>(this.API)
+
+
   }
 
 }
