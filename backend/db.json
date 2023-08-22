@@ -14,27 +14,9 @@
     },
     {
       "id": 3,
-      "conteudo": "Angular é o melhor'",
+      "conteudo": "Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé, cursus quis, vehicula ac nisi. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Si num tem leite então bota uma pinga aí cumpadi! Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.",
       "autoria": "Dev Alura",
-      "modelo": "modelo3"
-    },
-    {
-      "id": 4,
-      "conteudo": "Mussum Ipsum, cacilds vidis litro abertis.  Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Interagi no mé, cursus quis, vehicula ac nisi. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Leite de capivaris, leite de mula manquis sem cabeça. ",
-      "autoria": "Dev Alura",
-      "modelo": "modelo2"
-    },
-    {
-      "conteudo": "Thor",
-      "autoria": "Cristal",
-      "modelo": "modelo1",
-      "id": 5
-    },
-    {
-      "conteudo": "Andrea teste",
-      "autoria": "teste 2",
-      "modelo": "modelo3",
-      "id": 6
+      "modelo": "modelo1"
     }
   ]
 }
