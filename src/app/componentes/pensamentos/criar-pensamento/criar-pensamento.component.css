@@ -105,6 +105,20 @@ input[type='radio'] {
   column-gap: 20px;
 }
 
+.mensagem__erro {
+  font-size: 12px;
+  margin-left: 5px;
+  color: red;
+  margin-top: -25px;
+  margin-bottom: 20px;
+}
+
+.botao__desabilitado {
+  margin: 5px;
+  margin-top: 70px;
+  width: 200px;
+}
+
 .custom-radio {
   border: 1px solid #154580;
   width: 30px;
