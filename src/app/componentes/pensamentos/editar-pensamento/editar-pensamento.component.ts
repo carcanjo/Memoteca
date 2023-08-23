@@ -49,9 +49,6 @@ export class EditarPensamentoComponent implements OnInit {
   }
 
   habilitarBotao(): string {
-
-    console.log(this.formulario.get('autoria')?.errors);
-
     if (this.formulario.valid) {
       return 'botao'
     }
