@@ -4,7 +4,18 @@
       Meu Mural
     </h2>
     <button routerLink="/criarPensamento" class="botao">Adicionar pensamento</button>
+    <div class="buscar-pensamentos">
+      <input
+        type="search"
+        class="filtro"
+        placeholder="O que você procura"
+        autofocus
+        [(ngModel)]="filtro"
+      >
+      <img src="/assets/imagens/lupa.png" class="lupa" alt="Lupa azul">
+    </div>
   </header>
+
   <div class="mural" *ngIf="listaPensamento.length > 0, else semPensamentos">
     <div *ngFor="let pensamento of listaPensamento">
       <app-pensamento [pensamento]="pensamento"></app-pensamento>
@@ -15,7 +26,6 @@
 <app-botao-carregar-mais [haMaisPensamentos]="haMaisPensamentos" (click)="carregarMaisPensamento()">
 
 </app-botao-carregar-mais>
-
 
 <ng-template #semPensamentos>
   <div class="ff-inter sem-pensamentos">

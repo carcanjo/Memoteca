@@ -13,38 +13,32 @@
       "modelo": "modelo2"
     },
     {
-      "id": 3,
-      "conteudo": "Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé, cursus quis, vehicula ac nisi. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Si num tem leite então bota uma pinga aí cumpadi! Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.",
-      "autoria": "Mussum Ipsum",
+      "id": 4,
+      "conteudo": "Você faz TI? Conserta o meu celular?",
+      "autoria": "Grupo da familia",
       "modelo": "modelo1"
     },
     {
-      "conteudo": "Cleiton Arcanjo dos santos 1",
-      "autoria": "",
-      "modelo": "modelo3",
-      "id": 4
-    },
-    {
-      "conteudo": "jiojojoijoijoijiojoijoijoijiojiojiojjioj",
-      "autoria": "jljlkjlkjlkjijijijijijij",
+      "conteudo": "Na volta a gente compra ",
+      "autoria": "Mãe",
       "modelo": "modelo3",
       "id": 5
     },
     {
-      "conteudo": "gggggggggggggggggggggggg",
-      "autoria": "dddddddddddddddddddddddddddddddd",
+      "conteudo": "Na minha máquina funciona!",
+      "autoria": "Dev",
       "modelo": "modelo3",
       "id": 6
     },
     {
-      "conteudo": "qqqqqqqqqqqqqqqqq",
-      "autoria": "qqqqqqqqqqqqqqqqqqqq",
+      "conteudo": "Deve ser cache",
+      "autoria": "dev",
       "modelo": "modelo2",
       "id": 7
     },
     {
-      "conteudo": "ppppppppppppppp",
-      "autoria": "pppppppppppppppppppppppppppp",
+      "conteudo": "Já tentou reiniciar o roteador?",
+      "autoria": "Vivo",
       "modelo": "modelo1",
       "id": 8
     }
