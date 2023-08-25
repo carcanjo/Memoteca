@@ -4,15 +4,16 @@
       Meu Mural
     </h2>
     <button routerLink="/criarPensamento" class="botao">Adicionar pensamento</button>
-    <div class="buscar-pensamentos">
+     <div class="buscar-pensamentos">
       <input
         type="search"
         class="filtro"
-        placeholder="O que você procura"
+        placeholder="O que você procura?"
         autofocus
         [(ngModel)]="filtro"
+        (keyup)="pesquisarPensamentos()"
       >
-      <img src="/assets/imagens/lupa.png" class="lupa" alt="Lupa azul">
+      <img src="/assets/imagens/lupa.png" alt="Lupa azul">
     </div>
   </header>
 
