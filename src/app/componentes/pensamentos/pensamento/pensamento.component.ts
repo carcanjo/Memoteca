@@ -16,6 +16,9 @@ export class PensamentoComponent implements OnInit {
     modelo: 'modelo3',
     favorito: false
   }
+
+  @Input() listaFavoritos: Pensamento[] = [];
+
   constructor( private service: PensamentoService) { }
 
   ngOnInit() {
@@ -39,6 +42,9 @@ export class PensamentoComponent implements OnInit {
 
   atualizarFavorito() {
     this.service.mudarFavorito(this.pensamento)
-      .subscribe();
+      .subscribe(() => {
+        this.listaFavoritos.splice(this.listaFavoritos.indexOf(this.pensamento), 1)
+        //splice removo uma posição do array passo a posição do index e quantos vou retirar
+      });
   }
 }

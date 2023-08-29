@@ -1,7 +1,7 @@
 <section class="containar">
-  <header class="header d-flex">
+  <header class="header d-flex"><br>
     <h2 class="ff-inter">
-      Meu Mural
+      {{ titulo }}
     </h2>
     <button routerLink="/criarPensamento" class="botao">Adicionar pensamento</button>
      <div class="buscar-pensamentos">
@@ -16,7 +16,7 @@
       <img src="/assets/imagens/lupa.png" alt="Lupa azul">
     </div>
     <div class="botoes">
-      <button class="botao">Meu Mural</button>
+      <button class="botao" (click)="recarregarComponente()" >Meu Mural</button>
       <button class="botao" (click)="listarFavoritos()" >Meus Favoritos</button>
       <button routerLink="/criarPensamento" class="botao">Novo pensamento</button>
     </div>
@@ -24,7 +24,10 @@
 
   <div class="mural" *ngIf="listaPensamento.length > 0, else semPensamentos">
     <div *ngFor="let pensamento of listaPensamento">
-      <app-pensamento [pensamento]="pensamento"></app-pensamento>
+      <app-pensamento
+        [pensamento]="pensamento"
+        [listaFavoritos]="listaFavoritos"
+      ></app-pensamento>
     </div>
   </div>
 </section>
